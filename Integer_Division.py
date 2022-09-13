@@ -1,3 +1,3 @@
-a1 =int(input())
-b =a1//10
-print(b)
+a =int(input())
+c =a//10
+print(c)
