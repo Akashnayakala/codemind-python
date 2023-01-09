@@ -1,10 +1,14 @@
-a =int(input())
-w=0
-r1=a%10
+a=int(input())
+g=a
+rev=0
+t=a
+d=1
 while a>0:
-    r=a%10
+    d=a%10
+    rev=rev*10+d
     a=a//10
-if r-r1==0:
-    print(True)
+if rev==g:
+    print("True")
 else:
-    print(False)
+    print("False")
+    
